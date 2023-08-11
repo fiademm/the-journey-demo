@@ -1,0 +1,59 @@
+/* @font-face {
+    font-family: "RedHatDisplay-Black";
+    src: local("RedHatDisplay"), url(../fonts/RedHatDisplay-Black.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "RedHatDisplay-Bold";
+    src: local("RedHatDisplay"), url(../fonts/RedHatDisplay-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "RedHatDisplay-Medium";
+    src: local("RedHatDisplay"), url(../fonts/RedHatDisplay-Medium.ttf) format('truetype');
+}
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+} */
+
+.component-container {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(17, 17, 17, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 1.4vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtext {
+    font-size: 0.96vw;
+    font-family: 'RedHatDisplay-Medium';
+    color: #e0e0e0;
+    letter-spacing: 0.3vw;
+}
+
+.hline {
+    width: 65.286vw;
+}
+
+.line1 {
+    color: #fff;
+}
+
+.line2 {
+    color: #e0e0e0;
+}
+
+.name {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2.4vw;
+    font-family: 'RedHatDisplay-Bold';
+    letter-spacing: 1.0vw;
+}

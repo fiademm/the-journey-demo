@@ -1,4 +1,37 @@
-.App {
+@font-face {
+  font-family: "RedHatDisplay-Black";
+  src: local("RedHatDisplay"), url(./fonts/RedHatDisplay-Black.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "RedHatDisplay-Bold";
+  src: local("RedHatDisplay"), url(./fonts/RedHatDisplay-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "RedHatDisplay-Medium";
+  src: local("RedHatDisplay"), url(./fonts/RedHatDisplay-Medium.ttf) format('truetype');
+}
+
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+/*
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(17,17,17,1) 50%, rgba(0,0,0,1) 100%);
+*/
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +68,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
